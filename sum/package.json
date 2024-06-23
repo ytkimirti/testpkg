@@ -1,0 +1,15 @@
+{
+  "name": "@yusorg/sum",
+  "version": "1.0.0",
+  "bin": "dist/index.js",
+  "scripts": {
+    "build": "tsup index.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "tsup": "^8.1.0"
+  }
+}
