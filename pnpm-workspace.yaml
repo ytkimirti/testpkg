@@ -2,3 +2,4 @@ packages:
   - "sum"
   - "web"
   - "webvite"
+  - "consolevite"

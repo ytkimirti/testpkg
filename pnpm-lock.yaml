@@ -11,7 +11,7 @@ importers:
       '@yusorg/sum':
         specifier: workspace:*
         version: link:sum
-      web:
+      '@yusorg/web':
         specifier: workspace:*
         version: link:web
       webvite:
@@ -29,15 +29,15 @@ importers:
 
   web:
     dependencies:
+      minimist:
+        specifier: ^1.2.8
+        version: 1.2.8
       next:
         specifier: 14.2.4
         version: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react:
-        specifier: ^18
-        version: 18.3.1
-      react-dom:
-        specifier: ^18
-        version: 18.3.1(react@18.3.1)
+      opener:
+        specifier: ^1.5.2
+        version: 1.5.2
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -51,6 +51,12 @@ importers:
       postcss:
         specifier: ^8
         version: 8.4.38
+      react:
+        specifier: ^18
+        version: 18.3.1
+      react-dom:
+        specifier: ^18
+        version: 18.3.1(react@18.3.1)
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.4

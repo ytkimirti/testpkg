@@ -8,7 +8,7 @@
   "main": "index.js",
   "dependencies": {
     "@yusorg/sum": "workspace:*",
-    "web": "workspace:*",
+    "@yusorg/web": "workspace:*",
     "webvite": "workspace:*"
   }
 }
