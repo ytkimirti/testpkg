@@ -1,6 +1,9 @@
 {
   "name": "@yusorg/web",
   "version": "0.1.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
