@@ -1,12 +1,8 @@
 {
   "name": "testpkg",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "main": "index.js",
   "devDependencies": {
-    "@changesets/cli": "^2.27.5"
-  }
+    "@changesets/cli": "^2.27.5",
+    "turbo": "^2.0.4"
+  },
+  "packageManager": "pnpm@9.0.0"
 }
