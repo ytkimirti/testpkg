@@ -12,8 +12,8 @@ jobs:
   pr:
     name: Release Packages
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    permissions: write-all
+
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v4.0.0
