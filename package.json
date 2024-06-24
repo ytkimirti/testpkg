@@ -6,9 +6,7 @@
   "author": "",
   "license": "ISC",
   "main": "index.js",
-  "dependencies": {
-    "@yusorg/sum": "workspace:*",
-    "@yusorg/web": "workspace:*",
-    "webvite": "workspace:*"
+  "devDependencies": {
+    "@changesets/cli": "^2.27.5"
   }
 }
