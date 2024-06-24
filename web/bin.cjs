@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-console.log("helo");
+console.log("hello");
 
 const { createServer } = require("http");
 const { parse } = require("url");
