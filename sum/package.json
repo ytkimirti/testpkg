@@ -1,6 +1,7 @@
 {
   "name": "@yusorg/sum",
   "version": "1.0.0",
+  "private": false,
   "bin": "dist/index.js",
   "scripts": {
     "build": "tsup index.ts"
