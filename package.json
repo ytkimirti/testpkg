@@ -1,5 +1,8 @@
 {
   "name": "testpkg",
+  "scripts": {
+    "build": "turbo build"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
     "turbo": "^2.0.4"
